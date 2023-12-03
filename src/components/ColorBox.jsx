@@ -20,7 +20,7 @@ function ColorBox() {
   };
 
   return (
-    <div className="  h-24 flex overflow-hidden ">
+    <div className="mt-4  h-24 flex overflow-hidden ">
      
       <div className="flex flex-wrap ">
         {boxColors.map((color, index) => (

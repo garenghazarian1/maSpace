@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import products from './data'; // Import your products data
+import products from './data'; 
 import { NavLink } from 'react-router-dom';
 
 export default function ProductSidebar() {

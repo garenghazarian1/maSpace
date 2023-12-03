@@ -2,8 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const StarryBackground = () => {
     const canvasRef = useRef(null);
-    const [backgroundColor, setBackgroundColor] = useState('black'); // Initial background color
-
+    const [backgroundColor, setBackgroundColor] = useState('black'); 
     useEffect(() => {
         const canvas = canvasRef.current;
         const ctx = canvas.getContext('2d');

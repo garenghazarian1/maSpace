@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Login from '../login/Login';
 
+
 // Style
 const nav = "flex items-center justify-between mx-auto mt-1 mb-1 ml-4 mr-4 gap-2 bg-gradient-to-r from-indigo-500/25 to-black/25 p-2 rounded-lg shadow-lg w-full md:w-";
 
@@ -57,7 +58,14 @@ export default function NavBar() {
             <NavLink to="/eshop" className={({ isActive }) => linkStyle(isActive)}>
               Shop
             </NavLink>
-          </li>
+            </li>
+            <li className="m-2">
+            <NavLink to="/recipes" className={({ isActive }) => linkStyle(isActive)}>
+              Recipes
+            </NavLink>
+            </li>
+           
+         
         </ul>
       </div>
       <div className="hidden md:block">

@@ -1,4 +1,4 @@
-// SortControls.jsx
+
 export default function SortControls({ onSortChange }) {
     return (
         <>
@@ -10,7 +10,7 @@ export default function SortControls({ onSortChange }) {
                     name="sort"
                     value="lowToHigh"
                     onChange={(e) => onSortChange(e.target.value)}
-                    className="radio radio-primary" // Add your custom radio button styling here
+                    className="radio radio-primary" 
                 />
                 <span className="text-md text-white">Price: Low to High</span>
             </label>
@@ -20,7 +20,7 @@ export default function SortControls({ onSortChange }) {
                     name="sort"
                     value="highToLow"
                     onChange={(e) => onSortChange(e.target.value)}
-                    className="radio radio-primary" // Add your custom radio button styling here
+                    className="radio radio-primary" 
                 />
                 <span className="text-md text-white">Price: High to Low</span>
             </label>

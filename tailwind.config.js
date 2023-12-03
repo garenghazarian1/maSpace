@@ -15,11 +15,17 @@ export default {
         '2xl': '1536px',    // default
         '3xl': '1920px',    // adding a new larger breakpoint
       },
+      height: {
+        '400': '400px',
+      },
+      
       placeholderColor: {
         'white': '#ffffff', // custom placeholder color
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 
